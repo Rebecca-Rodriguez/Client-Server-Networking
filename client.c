@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	int clientSocket, valRead;
 	struct sockaddr_in clientAddr;
 
-	char* message = "Rebecca Velez: 9939-6591";
+	char* message = "Why hello there! This was written in client.c.";
 	const int BUFFER_SIZE = 256;
 	char data[BUFFER_SIZE];
 
